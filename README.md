@@ -45,7 +45,7 @@ private string host_Name;
 ```cs
 var description = "test";
 ```
-8. Do prefix interfaces with the letter I
+8. Do prefix interfaces with the letter `I`
 ```cs
 public interface IDataRepository
 {
@@ -84,4 +84,14 @@ return Ok(items);
 
 //Avoid
 <div v-if="hostName !== null">{{hostName}}</data>
+```
+2. Use Filters to format values
+```html
+filters: {
+  moment: function (date) {
+    return moment(date).fromNow();
+  }
+}
+
+<span>{{ date | moment }}</span>
 ```
