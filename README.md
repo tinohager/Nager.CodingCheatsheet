@@ -95,3 +95,13 @@ filters: {
 
 <span>{{ date | moment }}</span>
 ```
+
+3. .vue file structure (script area)
+   * Name
+   * Data
+   * Props
+   * Computed
+   * Components
+   * Mixins
+   * Options / Lifecycle Hooks
+   * Methods
