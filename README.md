@@ -112,23 +112,21 @@ Use ES6 "arrow functions", to keep the reference to the instance with the this k
 
 ```html
 // Correct
-this.axios.get('/Data)
-	.then(response => {
-		this.myData = response.data;
-	})
-	.catch(error => {
-		console.log(error);
-	});
+this.axios.get('/Data')
+  .then(response => {
+    this.myData = response.data;
+  })
+  .catch(error => {
+    console.log(error);
+  });
 
 //Avoid
 let self = this;
-this.axios.get('/Data)
-	.then(function (response) {
-		self.myData = response.data;
-	})
-	.catch(function (error) {
-		console.log(error);
-	});
-
-<span>{{ date | moment }}</span>
+this.axios.get('/Data')
+  .then(function (response) {
+    self.myData = response.data;
+  })
+  .catch(function (error) {
+    console.log(error);
+  });
 ```
