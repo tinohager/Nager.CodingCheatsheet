@@ -37,7 +37,7 @@
 private string _description;
 private string _hostName;
 
-//Avoid
+// Avoid
 private string description;
 private string host_Name;
 ```
@@ -71,7 +71,7 @@ return StatusCode(StatusCodes.Status200OK, items);
 return StatusCode(StatusCodes.Status204NoContent);
 return StatusCode(StatusCodes.Status500InternalServerError);
 
-//Avoid
+// Avoid
 return Ok(items);
 ```
 
@@ -82,7 +82,7 @@ return Ok(items);
 // Correct
 <div v-if="hostName">{{hostName}}</data>
 
-//Avoid
+// Avoid
 <div v-if="hostName !== null">{{hostName}}</data>
 ```
 ### 2. Use filters to format values
@@ -110,7 +110,7 @@ filters: {
 
 Use ES6 "arrow functions", to keep the reference to the instance with the this keyword
 
-```html
+```js
 // Correct
 this.axios.get('/Data')
   .then(response => {
@@ -120,7 +120,7 @@ this.axios.get('/Data')
     console.log(error);
   });
 
-//Avoid
+// Avoid
 let self = this;
 this.axios.get('/Data')
   .then(function (response) {
