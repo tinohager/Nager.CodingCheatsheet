@@ -108,7 +108,7 @@ filters: {
 
 ### 4. axios inegration
 
-Use ES6 "arrow functions", to keep the reference to the instance with the this keyword
+Use ES6 "arrow functions", to keep the reference to the instance with the `this` keyword
 
 ```js
 // Correct
