@@ -95,16 +95,9 @@ filters: {
 
 <span>{{ date | moment }}</span>
 ```
+### 3. Use eslint
 
-### 3. .vue file structure (script area)
-   * Name
-   * Data
-   * Props
-   * Computed
-   * Components
-   * Mixins
-   * Options / Lifecycle Hooks
-   * Methods
+with plugin:vue/recommended
 
 ### 4. axios inegration
 
