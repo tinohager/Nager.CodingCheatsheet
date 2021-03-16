@@ -75,6 +75,12 @@ return StatusCode(StatusCodes.Status500InternalServerError);
 return Ok(items);
 ```
 
+3. Services always with Dto Models
+   Create, Edit, Delete, Exists, Prefix, Read
+4. Services with Request, Response suffix {Resource/Action}Request, {Resource/Action}Response
+   CustomerCreateRequestDto, CustomerEditRequestDto
+5. Repositories without Dto Models, create own models
+
 ## Vue.js
 
 Good editor for examples
