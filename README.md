@@ -80,10 +80,14 @@ return Ok(items);
    - Change (Change, Edit, Update)
    - Delete (Delete, Remove)
    - Exists (with S on he/she/it)
-   - Get (Get, Read)
+   - `Nothing` (Get, Read)
    
 4. Services with Request, Response suffix {Resource/Action}Request, {Resource/Action}Response
-   CustomerCreateRequestDto, CustomerChangeRequestDto
+   - CustomerCreateRequestDto
+   - CustomerChangeRequestDto
+   - CustomerDeleteRequestDto
+   - CustomerExistsRequestDto
+   - CustomerRequestDto (Get)
 5. Repositories without Dto Models, create own models
 
 ## Vue.js
