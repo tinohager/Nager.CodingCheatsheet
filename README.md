@@ -76,9 +76,14 @@ return Ok(items);
 ```
 
 3. Services always with Dto Models
-   Create, Edit, Delete, Exists, Prefix, Read
+   - Create (Create, Add, Insert)
+   - Change (Change, Edit, Update)
+   - Delete (Delete, Remove)
+   - Exists (with S on he/she/it)
+   - Get (Get, Read)
+   
 4. Services with Request, Response suffix {Resource/Action}Request, {Resource/Action}Response
-   CustomerCreateRequestDto, CustomerEditRequestDto
+   CustomerCreateRequestDto, CustomerChangeRequestDto
 5. Repositories without Dto Models, create own models
 
 ## Vue.js
