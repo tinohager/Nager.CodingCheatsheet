@@ -78,7 +78,7 @@ return Ok(items);
 3. Services always with Dto Models
    - Create (Create, Add, Insert)
    - Change (Change, Edit, Update)
-   - Delete (Delete, Remove)
+   - Delete (Delete, Remove) (`delete` naming can`t use in javascript)
    - Exists (with S on he/she/it)
    - `Nothing` (Get, Read)
    
@@ -88,7 +88,7 @@ return Ok(items);
    - CustomerDeleteRequestDto
    - CustomerExistsRequestDto
    - CustomerRequestDto (Get)
-5. Repositories without Dto Models, create own models
+6. Repositories we do not use `Dto` Models, here should be created own models with the configuration for the database mapper.
 
 ## Vue.js
 
