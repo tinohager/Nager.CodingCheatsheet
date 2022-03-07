@@ -20,9 +20,9 @@
 ## Recommended nuget packages
 
 - Mapster
-- log4net
+- Microsoft.Extensions.Logging
 - Quartz
-- Swashbuckle
+- Swashbuckle.AspNetCore
 
 ## C#
 
@@ -53,13 +53,13 @@ public interface IDataRepository
 ```
 ## asp.net
 
-1. Use `IActionResult` or `Task<IActionResult>`
+1. Use `ActionResult` or `Task<ActionResult>` for async
 ```cs
-public IActionResult GetData()
+public ActionResult GetData()
 {
 }
 
-public async Task<IActionResult> GetDataAsync()
+public async Task<ActionResult> GetDataAsync()
 {
 }
 
