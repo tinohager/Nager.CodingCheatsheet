@@ -4,7 +4,7 @@
 
 ### quasar.config.js
 
-- Change `vueRouterMode` to `history`
+- Change `vueRouterMode` from `hash` to `history`
 
 ### .eslintrc.js
 
