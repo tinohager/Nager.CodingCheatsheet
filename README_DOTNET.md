@@ -1,4 +1,4 @@
-# DOTNET/C#
+# .NET | C#
 
 ## Recommended nuget packages
 
@@ -6,6 +6,10 @@
 - Microsoft.Extensions.Logging
 - Quartz
 - Swashbuckle.AspNetCore
+
+## Coding Guidelines
+
+### General
 
 1. Use PascalCasing for class names and method names.
 2. Use camelCasing for method arguments and local variables.
@@ -32,7 +36,7 @@ public interface IDataRepository
 {
 }
 ```
-## asp.net
+### asp.net
 
 1. Use `ActionResult` or `Task<ActionResult>` for async
 ```cs
