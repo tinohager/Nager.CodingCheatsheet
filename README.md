@@ -2,7 +2,7 @@
 
 ## Table of contents
 
-- [Project Structure](README_PROJECT_STRUCTURE)
+- [Project Structure](README_PROJECT_STRUCTURE.md)
 - [.NET | C#](README_DOTNET.md)
 - [vue.js V2](README_VUE_V2.md)
 - [vue.js V3](README_VUE_V3.md)
